@@ -19,4 +19,66 @@ img{
     text-decoration: none;
 }
 
+/* content */
+#content{
+    position: relative;
+    width: 100%;
+    margin-bottom: 350px;
+    height: auto;
+}
+.san-pham{
+    position: relative;
+    top: 50px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    min-width: 25px;
+    width: 38%;
+    margin: 0 auto;
+    border-bottom: 5px double black;
+    text-transform: uppercase;
+}
+#dong-san-pham-box{
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: 350px;
+}
+.dong-san-pham{
+    width: 90%;
+    height: 260px;
+    margin: 0 auto;
+    margin-top:50px ;
+    padding-left: 160px;
+}
+.img-dong-san-pham{
+    float: left;
+    margin-right: 25px;
+    padding-bottom: 50px;
+}
+.img-dong-san-pham img{
+    width: 230px;
+    height: 230px;
+    border-radius: 110px;
+    float: left;
+    margin-right: 40px;
+}
+.dong-san-pham p{
+    text-align: center;
+}
+.dong-san-pham figcaption{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.gia{
+    font-size: 30px;
+    font-weight: bold;
+    color: lightpink;
+}
+.gia span{
+    font-size: 12px;
+}
+
 
